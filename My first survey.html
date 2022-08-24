@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+	<title>Ship Me Logistics</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>	
+	<div class="container">
+		
+		<h1 id="title">Ship Me Logistics</h1>
+		<p id="description">Meeting your transportation needs</p>
+
+		<form id="survey-form">
+			<div class="form-class">
+			<label for="name" id="name-label">Name:</label><br>
+				<input type="text" name="Username" placeholder="Enter a username" required="required" id="name">
+			</div>
+
+			<div class="form-class">
+			<label for="Email" id="email-label">
+				Email:
+			</label><br>
+				<input type="email" name="email" placeholder="Eneter your email" required="required" id="email">
+			</div>
+
+			<div class="form-class">
+			<label for="Age" id="number-label">Age:</label><br>
+				<input type="number" name="age" placeholder="Enter your age" min="1" max="99" maxlength="35" id="number">
+			</div>
+
+			<div class="form-class">
+			<p>Which option describes your curent role?
+			</p>
+			<select name="roles" id="dropdown">
+				<option vale=""></option>
+				<option value="Student">Student</option>
+				<option value="Employed">Employed</option>
+				<option value="Unemployed">Unemployed</option>
+				<option value="retired">Retired</option>
+			</select>
+			</div>
+			<div class="form-class">
+			<p>Would you recommend Ship Me Logistics to a friend</p>
+			<input type="radio" name="recommend" value="Yes" checked="checked">Yes<br>
+			<input type="radio" name="recommend" value="No">No<br>
+			<input type="radio" name="recommend" value="Maybe">Maybe<br>
+			</div>
+
+			<div class="form-class">
+			<p>What is your favorite feature of Ship Me Logistics</p>
+			<select name="feature">
+				<option vale=""></option>
+				<option value="Custom Packaging">Custom Packaging</option>
+				<option value="On time delivery">On time delivery</option>
+				<option value="services">services</option>
+				<option value="Uniform">Uniform</option>
+			</select>
+			</div>
+
+			<div class="form-class">
+			<p>
+				What would you like us to improve
+			</p>
+			<input type="checkbox" name="improve" value="Our Apps">Our Apps<br>
+			<input type="checkbox" name="improve" value="Customer Servoce">Customer Servoce<br>
+			<input type="checkbox" name="improve" value="Discounts">Discounts<br>
+			<input type="checkbox" name="improve" value="Our Product Offerings">Our Product Offerings<br>
+			<input type="checkbox" name="improve" value="social Media Presence">social Media Presence<br>
+			</div>
+
+			<div class="form-class">
+			<p>
+				Any comments or suggestions?
+			</p>
+			<textarea name="comments">Enter your comments here...</textarea>
+			</div>
+			<br>
+			<div class="form-class">
+			<input type="submit" id="submit">
+			</div>
+		</form>
+	</div>
+</body>

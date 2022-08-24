@@ -1,0 +1,134 @@
+body{
+    font-family: "Lexend Deca", 'Times New Roman', Times, serif;
+    background-image: url("images/pexels-tiger-lily-4481259.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 25px;
+    width: 1400px;
+    height: 1600px;
+    display: block;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+#title{
+    font-family: "Big Shoulders Display", 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+#description{
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.container{
+    align-items: center;
+    height: 1500px;
+    width: 750px;
+    margin: 50px 315px 0 315px;
+    max-width: 750px;
+    display: block;
+}
+
+#survey-form{
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 40px 40px 40px 40px;
+    color: white;
+    background-color: rgba(161, 70, 70, 0.781);
+    display: block;
+}
+
+.form-class{
+    padding: 4px 4px 4px 4px;
+    width: 650px;
+    margin: 0 0 20px 0;
+    height: auto;
+}
+
+input[type=text]{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+input[type=number]{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+input[type=email]{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: none;
+}
+
+input[type=radio]{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 0;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: none;
+}
+
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 0;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: none;
+}
+
+input[type=submit]{
+    width: 640px;
+    height: 40px;
+    font-size: 21px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: none;
+    background-color: #B3490A;
+    color: white;
+    cursor: pointer;
+}
+
+select{
+    width: 640px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: none;
+}
+
+textarea{
+    height: 120px;
+    width: 632px;
+    border: 1px solid  #767676;
+    padding: 10px 10px 10px 10px;
+    min-height: 120px;
+    display: inline-block;
+    overflow: auto;
+    cursor: text;
+}
